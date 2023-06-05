@@ -1,0 +1,122 @@
+[
+    {
+     "Category": "Wagon",
+     "Availability": false,
+     "Brand": "Volkswagen",
+     "Model": "Passat",
+     "Modelyear": 2020,
+     "Mileage": 10000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 180,
+     "Description": "The Wagon-Volkswagen-Passat is a midsize car with a spacious interior and cargo area, known for its smooth ride and solid build quality."
+    },
+    {
+     "Category": "Wagon",
+     "Availability": true,
+     "Brand": "Skoda ",
+     "Model": "Octavia",
+     "Modelyear": 2022,
+     "Mileage": 12000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 120,
+     "Description": "The Wagon-Skoda Octavia is a spacious and practical vehicle that offers excellent value for money with a range of features and a comfortable ride."
+    },
+    {
+     "Category": "Wagon",
+     "Availability": true,
+     "Brand": "Subaru ",
+     "Model": "WRX ",
+     "Modelyear": 2022,
+     "Mileage": 10000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 120,
+     "Description": "The Wagon-Subaru-WRX is a performance-oriented sport wagon that offers a powerful engine and advanced all-wheel drive system."
+    },
+    {
+     "Category": "SUV",
+     "Availability": true,
+     "Brand": "Hyundai",
+     "Model": "Tucson",
+     "Modelyear": 2022,
+     "Mileage": 15000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 120,
+     "Description": "The Hyundai Tucson is a stylish SUV with impressive fuel economy, modern features, and a spacious interior."
+    },
+    {
+     "Category": "SUV",
+     "Availability": true,
+     "Brand": "Mazda ",
+     "Model": "CX-5 Maxx",
+     "Modelyear": 2021,
+     "Mileage": 18000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 120,
+     "Description": "The Mazda CX-5 Maxx is a stylish and practical SUV with a comfortable interior and a smooth driving experience."
+    },
+    {
+     "Category": "SUV",
+     "Availability": true,
+     "Brand": "Nissan",
+     "Model": "X-TRAIL ST",
+     "Modelyear": 2020,
+     "Mileage": 20000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 120,
+     "Description": "The Nissan X-Trail ST is a mid-size SUV that offers a spacious interior, comfortable ride, and reliable performance on and off the road."
+    },
+    {
+     "Category": "SUV",
+     "Availability": true,
+     "Brand": "Jaguar",
+     "Model": "F-PACE",
+     "Modelyear": 2020,
+     "Mileage": 10000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 200,
+     "Description": "The Jaguar F-PACE is a luxurious and sporty SUV with sleek design, powerful performance, and advanced technology features."
+    },
+    {
+     "Category": "Sedan",
+     "Availability": true,
+     "Brand": "Jaguar",
+     "Model": "XF 300 Sport",
+     "Modelyear": 2017,
+     "Mileage": 12000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 200,
+     "Description": "The Jaguar XF 300 Sport is a luxurious and sporty sedan car with a distinctive design, advanced technology features, and high-performance capabilities."
+    },
+    {
+     "Category": "Sedan",
+     "Availability": true,
+     "Brand": "Hyundai",
+     "Model": "Sonata N Line",
+     "Modelyear": 2020,
+     "Mileage": 14000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 120,
+     "Description": "The Sedan-Hyundai-Sonata N Line is a stylish and sporty vehicle that delivers powerful performance and advanced technology features."
+    },
+    {
+     "Category": "Sedan",
+     "Availability": true,
+     "Brand": "Toyota",
+     "Model": "Camry",
+     "Modelyear": 2019,
+     "Mileage": 25000,
+     "Fueltype": "petrol",
+     "Seats": 5,
+     "Priceperday": 120,
+     "Description": "The Toyota Camry is a reliable mid-size sedan known for its comfortable ride, practicality, and efficient performance."
+    }
+   ]
