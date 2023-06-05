@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Center</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!--Boxicon link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="../css/checkout.css">
+
+    
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header>
+        <div class="header-1">
+            <a>Car Rental Center</a>
+        </div>
+        <div class="header-2">
+            <a>Check Out</a>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+
+    <!--Order Form-->
+    <form class="order-form" action="../insert.php" method="POST">
+        <h2>Customer Details and Payment</h2>
+        <h3>Please fill in your details. <span>*</span> indicates required field.</h3>
+        <table>
+            <tr>
+                <td><label for="first-name">First Name<span>*</span></label></td>
+                <td><input type="text" id="first-name" name="first-name" required></td>
+            </tr>
+            <tr>
+                <td><label for="last-name">Last Name<span>*</span></label></td>
+                <td><input type="text" id="last-name" name="last-name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Address<span>*</span></label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="address-line1">Address Line 1<span>*</span></label></td>
+                <td><input type="text" id="address-line1" name="address-line1" required></td>
+            </tr>
+            <tr>
+                <td><label for="address-line2">Address Line 2</label></td>
+                <td><input type="text" id="address-line2" name="address-line2"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City<span>*</span></label></td>
+                <td><input type="text" id="city" name="city" required></td>
+            </tr>
+            <tr>
+                <td><label for="state">State<span>*</span></label></td>
+                <td>
+                    <select id="state" name="state" required>
+                        <option value="">Select State</option>
+                        <option value="ACT">Australian Capital Territory (ACT)</option>
+                        <option value="NSW">New South Wales (NSW)</option>
+                        <option value="NT">Northern Territory (NT)</option>
+                        <option value="QLD">Queensland (QLD)</option>
+                        <option value="SA">South Australia (SA)</option>
+                        <option value="TAS">Tasmania (TAS)</option>
+                        <option value="VIC">Victoria (VIC)</option>
+                        <option value="WA">Western Australia (WA)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="postcode">Post Code<span>*</span></label></td>
+                <td><input type="text" id="postcode" name="postcode" required></td>
+            </tr>
+            <tr>
+                <td><label for="payment-type">Payment Type<span>*</span></label></td>
+                <td>
+                    <select id="payment-type" name="payment-type" required>
+                        <option value="">Select Payment Type</option>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank-transfer">Bank Transfer</option>
+                    </select>
+                </td>
+            </tr>
+            <!--Buy Button-->
+            <tr>
+                <td colspan="2" class="last-btn">
+                    <input type="submit" value="Continue Selection" class="btn-cont" id="ContinueSelect">
+                    <input type="submit" value="Booking" class="btn-check" id="bookingBtn">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="total">
+                    <input type="text" id="totalPriceElement" name="totalPriceElement" value="You are required to pay: $" />
+                </td>
+            </tr>
+                    
+        </table>
+        
+    </form>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../js/checkout.js"></script>
+
+</html>
