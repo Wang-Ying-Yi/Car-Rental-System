@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap');
+
+:root{
+    --green: #27ae60;
+    --black: #121221;
+    --blue: #4545c9;
+}
+
+
+
+*::selection{
+    background: var(--blue);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+header{
+    z-index: 999;
+    position: fixed;
+    width: 100%
+}
+
+.header-1{
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 9%;
+}
+
+.header-1 a{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.header-2{
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 9%;
+}
+
+.header-2 a{
+    color: var(--black);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+/* Table */
+table#cartTable{
+    z-index: 1;
+    position: relative;
+    top: 18rem;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+img{
+    height: 20rem;
+    width: 35rem;
+    text-align: left;
+}
+
+#cartTable th {
+    font-size: 1.7rem;
+    text-align: center;
+}
+  
+#cartTable td {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5rem;
+}
+
+
+#checkout-btn {
+    z-index: 999;
+    display: inline-block;
+    background: #27ae60;
+    color: #fff;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    margin: 10px;
+}
+
+#checkout-btn:hover{
+    background: var(--black);
+}
+
+td button{
+    display: inline-block;
+    background: var(--blue);
+    color: #fff;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+td button:hover{
+    background: var(--black);
+}

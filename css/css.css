@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap');
+
+:root{
+    --green: #27ae60;
+    --black: #121221;
+    --blue: #4545c9;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background: var(--blue);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.header-1 .btn{
+    position: relative;
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--blue);
+    color: #fff;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-1 .btn:hover{
+    background: var(--green);
+}
+
+
+header{
+    z-index: 999;
+    position: fixed;
+    width: 100%
+}
+
+.header-1{
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+.header-1 a{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+
+
+/* Car Product */
+#carProduct {
+    z-index: 1;
+    position: relative;
+    top: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: flex-start; /* align items to the top */
+    justify-content: left;
+    margin-left: 10rem;
+}
+
+#carProduct .box {
+    z-index: 1;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    margin-right: 1.5rem; /* add some margin */
+    width: calc(26% - 5rem); /* calculate the width of each box */
+    height: 55rem;
+}
+
+  
+#carProduct .box img {
+    z-index: 1;
+    height: 20rem;
+    width: 100%;
+}
+
+#carProduct .box h3{
+    z-index: 1;
+    font-size: 2.5rem;
+}
+
+#carProduct .box p{
+    z-index: 1;
+    font-size: 1.5rem;
+}
+
+#carProduct .box span{
+    font-weight: bold;
+}
+
+
+/* Add To Cart Button */
+#carProduct .btn-cart{
+    z-index: 1;
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--blue);
+    color: #fff;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: left;
+    cursor: pointer;
+    vertical-align: baseline;
+}
+
+#carProduct  .btn-cart:hover{
+    background: var(--black);
+}
+
+#carProduct .btn-cart-False{
+    z-index: 1;
+    display: inline-block;
+    margin-top: 1rem;
+    background: gray;
+    color: #fff;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: left;
+    cursor: pointer;
+    vertical-align: baseline;
+}
